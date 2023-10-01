@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'new_font';
+    src: url(IndieFlower-Regular.ttf);
+}
+
+body {
+    background-image: url(background.jpg);
+    background-color: rgb(5, 41, 41);
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+#start {
+    text-align: center;
+    margin-left: 26%;
+    font-size: 45px;
+    font-family: new_font;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+ul {
+    float: right;
+    margin-top: 7%;
+    color: whitesmoke;
+    font-size: 34px;
+    font-family: new_font
+}
+
+#projects {
+    float: right;
+    margin-right: 7%;
+    margin-top: auto;
+    font-size: 34px;
+    font-family: new_font;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.projectsimg {
+    margin-top: 5%;
+    margin-right: 6%;
+    float: right;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.projectinfo {
+    float: right;
+    margin-top: 2%;
+    margin-right: 4%;
+    font-size: 26px;
+    column-span: 2;
+    font-family: new_font;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+img {
+    margin-left: 4%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 5px solid white;
+    transform: rotateX();
+    transition: all 3s ease;
+}
+
+.personal {
+    font-size: 26px;
+    margin-top: 2%;
+    column-span: 2;
+    font-family: new_font;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.personal td {
+    font-size: 26px;
+    font-family: new_font;
+    color: whitesmoke;
+}
+
+footer {
+    margin-top: 4%;
+    font-size: 26px;
+    font-family: new_font;
+    color: whitesmoke;
+}
+
