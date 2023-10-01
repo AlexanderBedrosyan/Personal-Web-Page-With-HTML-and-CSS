@@ -10,3 +10,5 @@ The view of the main page:
 There are some css details which are make a small rotation of the pictures when someone open the link. The right side projects are clickeble and everyone can open check the projects.
 
 Video with an explanation about the html and css control (BG):
+
+https://www.youtube.com/watch?v=JzbT4Iy8oK4
